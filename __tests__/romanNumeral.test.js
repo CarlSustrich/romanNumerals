@@ -13,4 +13,8 @@ describe ('Roman Numeral', () => {
   test("it should return 'X' when given a value of 10", () => {
     expect(RomanNumeral(10)).toEqual('X');
   })
+
+  test("it should return 'L' when given a value of 50", () => {
+    expect(RomanNumeral(50)).toEqual('L');
+  })
 });
