@@ -29,5 +29,9 @@ describe ('Roman Numeral', () => {
   test("it should return 'M' when given a value of 1000", () => {
     expect(RomanNumeral(1000)).toEqual('M');
   })
+});
 
+describe ('createNumeral', () => {
+
+  test('it should ')
 });
