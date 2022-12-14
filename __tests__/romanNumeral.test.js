@@ -10,7 +10,7 @@ describe ('Roman Numeral', () => {
     expect(RomanNumeral(5)).toEqual('V');
   })
 
-  test("it should return 'x' when given a value of 10", () => {
-    expect(RomanNumeral(10)).toEqual('x');
+  test("it should return 'X' when given a value of 10", () => {
+    expect(RomanNumeral(10)).toEqual('X');
   })
 });
